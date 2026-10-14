@@ -1,0 +1,17 @@
+{
+  "name": "authority-astrology",
+  "version": "1.0.0",
+  "description": "Calculate complete raw birth charts, aspects, houses, transits and returns with Swiss Ephemeris. Preserve birth-time uncertainty and use your own saved profiles with permission.",
+  "author": {
+    "name": "Authority Astrology",
+    "email": "support@authorityastrology.com",
+    "url": "https://authorityastrology.com"
+  },
+  "homepage": "https://authorityastrology.com/developers",
+  "license": "MIT",
+  "keywords": [
+    "astrology",
+    "birth-chart",
+    "Swiss-Ephemeris"
+  ]
+}

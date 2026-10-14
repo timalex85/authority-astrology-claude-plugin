@@ -1,0 +1,15 @@
+{
+  "name": "authority-astrology-claude",
+  "owner": {
+    "name": "Authority Astrology",
+    "email": "support@authorityastrology.com",
+    "url": "https://authorityastrology.com"
+  },
+  "plugins": [
+    {
+      "name": "authority-astrology",
+      "source": "./",
+      "description": "Calculate complete raw birth charts, aspects, houses, transits and returns with Swiss Ephemeris. Preserve birth-time uncertainty and use your own saved profiles with permission."
+    }
+  ]
+}

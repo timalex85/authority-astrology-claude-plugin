@@ -1,5 +1,22 @@
 # Authority Astrology for Claude
 
+Explore birth charts, transits and relationship charts in Claude, powered by Swiss Ephemeris.
+
+## Try it in Claude
+
+- Calculate an exact sample birth chart for 1 January 2000 at 12:00 UTC, latitude 51.4779, longitude 0.
+- Show my saved sample profiles and their birth-time certainty.
+- Compare two explicitly supplied sample birth charts with synastry and show their cross-chart aspects.
+
+## See it in action
+
+![Calculate an exact sample birth chart for 1 January 2000 at 12:00 UTC, latitude 51.4779, longitude 0.](https://authorityastrology.com/developers/claude/01-birth-chart.jpg)
+
+![Show my saved sample profiles and their birth-time certainty.](https://authorityastrology.com/developers/claude/02-saved-profiles.jpg)
+
+![Compare two explicitly supplied sample birth charts with synastry and show their cross-chart aspects.](https://authorityastrology.com/developers/claude/03-synastry.jpg)
+
+
 ![Authority Astrology](assets/icon.svg)
 
 Calculate complete raw birth charts, aspects, houses, transits and returns with Swiss Ephemeris. Preserve birth-time uncertainty and use your own saved profiles with permission.

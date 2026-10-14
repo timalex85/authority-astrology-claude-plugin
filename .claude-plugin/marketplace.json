@@ -9,7 +9,7 @@
     {
       "name": "authority-astrology",
       "source": "./",
-      "description": "Calculate complete raw birth charts, aspects, houses, transits and returns with Swiss Ephemeris. Preserve birth-time uncertainty and use your own saved profiles with permission."
+      "description": "Explore birth charts, transits and relationship charts in Claude with Swiss Ephemeris calculations. Preserve birth-time certainty and use your saved profiles with permission."
     }
   ]
 }

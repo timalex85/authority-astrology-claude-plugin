@@ -1,36 +1,38 @@
-# Authority Astrology for Claude
+# Authority Astrology: Birth Chart Calculator
 
-Explore birth charts, transits and relationship charts in Claude, powered by Swiss Ephemeris.
+<img src="assets/icon.png" alt="authority-astrology icon" width="72" height="72">
+
+Your birth chart, relationships and planetary cycles, explored in Claude with Swiss Ephemeris calculations.
+
+![Authority Astrology: Birth Chart Calculator: illustrated feature overview](assets/authority-astrology-birth-chart.png)
+
+## What you can do
+
+| Explore | What you can do |
+| --- | --- |
+| Birth charts | Calculate planets, signs, houses, angles and aspects from your birth details. |
+| Relationships | Compare two charts with synastry, or calculate a composite chart. |
+| Timing and cycles | Explore transits, secondary progressions, and solar, lunar or Saturn returns. |
+| Places | Calculate relocated charts and astrocartography. |
+| More chart techniques | Calculate horary and electional charts; look up eclipses, sky events and celestial positions. |
+| Your saved details | Connect your account to choose saved people, retrieve raw charts and save a new calculation when you ask. |
 
 ## Try it in Claude
 
-- Calculate an exact sample birth chart for 1 January 2000 at 12:00 UTC, latitude 51.4779, longitude 0.
-- Show my saved sample profiles and their birth-time certainty.
-- Compare two explicitly supplied sample birth charts with synastry and show their cross-chart aspects.
+- “Calculate my birth chart and explain my Sun, Moon, rising sign and major aspects. Ask me for the details you need.”
+- “Compare our birth charts with synastry and explain the cross-chart aspects.”
+- “What transits affect my natal chart this month?”
+- “Use my saved birth profile to calculate my next solar return.”
 
-## See it in action
+Calculations use Swiss Ephemeris; Claude supplies any explanation or interpretation. Birth-time uncertainty is preserved. Public calculations work without an account connection. Sign in only for saved profiles and charts. Astrology is for reflection and entertainment. The visual above illustrates a public synthetic sample for 1 January 2000 at 12:00 UTC in Greenwich, not an in-app screenshot.
+
+## Real Claude examples
 
 ![Calculate an exact sample birth chart for 1 January 2000 at 12:00 UTC, latitude 51.4779, longitude 0.](https://authorityastrology.com/developers/claude/01-birth-chart.jpg)
 
 ![Show my saved sample profiles and their birth-time certainty.](https://authorityastrology.com/developers/claude/02-saved-profiles.jpg)
 
 ![Compare two explicitly supplied sample birth charts with synastry and show their cross-chart aspects.](https://authorityastrology.com/developers/claude/03-synastry.jpg)
-
-
-![Authority Astrology](assets/icon.svg)
-
-Calculate complete raw birth charts, aspects, houses, transits and returns with Swiss Ephemeris. Preserve birth-time uncertainty and use your own saved profiles with permission.
-
-Calculate from supplied birth or event details without sign-in. The server returns complete raw Swiss Ephemeris data; Claude provides any explanation. Known, approximate and unknown birth times remain distinct. Large results include a manifest and can be retrieved in pages. There is no server-generated interpretation, score, report purchase or marketing action.
-
-Connect an Authority Astrology account only when you ask to read saved people or save and retrieve new raw charts. Existing account permissions apply. Older saved website-chart formats are outside this integration. Anonymous calculations must be repeated after connecting before they can be saved.
-
-## Examples
-
-- "Calculate my natal chart for 1 January 2000 at noon in Greenwich, London. Confirm the place first."
-- "I know my birth date and city but not my birth time. Explain what can and cannot be calculated."
-- "Compare two supplied natal charts and show all returned cross-chart aspects, with their source layers."
-- "Use my saved birth profile and calculate my next solar return." Sign in when prompted and select the intended person.
 
 ## Connect
 
@@ -48,7 +50,7 @@ For Claude Code, add the same endpoint with:
 claude mcp add --transport http authority-astrology https://authorityastrology.com/mcp/claude
 ```
 
-For a local checkout of this plugin package, run `claude --plugin-dir /absolute/path/to/plugin`. A public directory listing will be available only after Anthropic accepts and publishes the submission.
+For a local checkout of this plugin package, run `claude --plugin-dir /absolute/path/to/plugin`. The plugin is published in the Claude directory. Updates appear after Anthropic publishes the new version.
 
 ## Data and privacy
 
@@ -69,4 +71,4 @@ The plugin package is MIT licensed. Hosted services and their data remain subjec
 /plugin install authority-astrology@authority-astrology-claude
 ```
 
-The plugin files are MIT licensed. The remote service uses its own terms and privacy policy linked above. Directory availability depends on Anthropic review.
+The plugin files are MIT licensed. The remote service uses its own terms and privacy policy linked above. New directory versions are subject to Anthropic review.

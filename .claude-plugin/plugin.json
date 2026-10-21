@@ -1,7 +1,7 @@
 {
   "name": "authority-astrology",
-  "version": "1.0.1",
-  "description": "Explore birth charts, transits and relationship charts in Claude with Swiss Ephemeris calculations. Preserve birth-time certainty and use your saved profiles with permission.",
+  "version": "1.0.2",
+  "description": "Calculate your birth chart and explore planets, houses and aspects with Swiss Ephemeris. Compare relationships with synastry and composite charts; explore transits, progressions, solar, lunar and Saturn returns, relocation and astrocartography. Ask Claude to explain the results in plain language. Start with your birth details, or connect to use saved profiles and save new charts. Exact, approximate and unknown birth times are handled explicitly.",
   "author": {
     "name": "Authority Astrology",
     "email": "support@authorityastrology.com",
@@ -11,7 +11,19 @@
   "license": "MIT",
   "keywords": [
     "astrology",
-    "birth-chart",
+    "birth-chart-calculator",
+    "natal-chart",
+    "synastry",
+    "transits",
+    "solar-return",
+    "astrocartography",
     "Swiss-Ephemeris"
-  ]
+  ],
+  "displayName": "Authority Astrology: Birth Chart Calculator",
+  "icon": "./assets/icon.png",
+  "repository": "https://github.com/timalex85/authority-astrology-claude-plugin",
+  "documentationUrl": "https://authorityastrology.com/developers",
+  "supportUrl": "https://authorityastrology.com/support",
+  "privacyPolicyUrl": "https://authorityastrology.com/privacy-policy#connected-assistants",
+  "termsOfServiceUrl": "https://authorityastrology.com/terms"
 }
